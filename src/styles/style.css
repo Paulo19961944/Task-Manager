@@ -7,10 +7,14 @@
 
 /*CORPO DA PÁGINA*/
 body{
+    position: relative; /*Posição Relativa*/
+    top: 0; /*Ajusta no Topo*/
+    left: 0; /*Ajusta na Esquerda*/
     display: flex; /*Flexbox*/
     flex-direction: column; /*Alinha em Colunas*/
     align-items: center; /*Alinha o Eixo Perpendicular ao Centro*/
     font-family: 'Blinker', sans-serif; /*Fonte Blinker - Google*/
+    width: 100%;
     min-height: 100vh; /*Altura Mínima de 100% da Tela do Dispositivo*/
 }
 
