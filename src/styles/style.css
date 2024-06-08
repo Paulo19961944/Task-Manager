@@ -1,0 +1,87 @@
+/*ESTILO GLOBAL*/
+*{
+    margin: 0; /*Zera a Margem*/
+    padding: 0; /*Zera o Preenchimento*/
+    box-sizing: border-box; /*Ajusta o Box Model*/
+}
+
+/*CORPO DA PÁGINA*/
+body{
+    display: flex; /*Flexbox*/
+    flex-direction: column; /*Alinha em Colunas*/
+    align-items: center; /*Alinha o Eixo Perpendicular ao Centro*/
+    font-family: 'Blinker', sans-serif; /*Fonte Blinker - Google*/
+    width: 100vw; /*Largura ocupando toda a tela*/
+    min-height: 100vh; /*Altura Mínima de 100% da Tela do Dispositivo*/
+}
+
+/*TITULOS E SUBTITULOS*/
+h1, h2, h3{
+    text-align: center; /*Alinha o Texto ao Centro*/
+    font-size: 1.188rem; /*Tamanho da Fonte - 1.188rem | Aprox: 19px*/
+    font-weight: bold; /*Fonte em Negrito*/
+}
+
+/*PARÁGRAFOS E CONTEÚDO DO RODAPÉ*/
+p, small{
+    font-size: 0.75rem; /*Tamanho da Fonte - 0.75rem | Aprox: 12px*/
+}
+
+/*CABEÇALHO E RODAPÉ*/
+header, footer{
+    width: 100%; /*Largura de 100%*/
+    display: flex; /*Flexbox*/
+    align-items: center; /*Alinha os Itens ao Centro*/
+    height: 96px; /*Altura de 96px*/
+    background-color: #0037eb; /*Cor de Fundo - Azul*/
+    font-weight: bold; /*Fonte em Negrito*/
+    color: #fff; /*Cor da Fonte - Branca*/
+}
+
+/*SEÇÃO DO CONTEÚDO PRINCIPAL*/
+main section{
+    display: flex; /*Flexbox*/
+    flex-direction: column; /*Alinha em Colunas*/
+    align-items: center; /*Alinha o Eixo Perpendicular ao Centro*/
+    gap: 24px; /*Espaçamento entre elementos de 24px*/
+}
+
+/*BOTÕES*/
+button{
+    width: 96px; /*Largura de 96px*/
+    height: 24px; /*Altura de 24px*/
+    border: none; /*Tira a Borda*/
+    background-color: #0037eb; /*Cor de Fundo - Azul*/
+    color: #fff; /*Cor da Fonte - Branco*/
+    font-size: 0.75rem; /*Tamanho da Fonte de 0.75rem - Aprox: 12px*/
+    font-weight: bold;
+}
+
+/*CONTAINER PRINCIPAL*/
+.container{
+    width: 85vw; /*Largura de 85% da Tela*/
+    margin-top: 96px; /*Margem Superior de 96px*/
+}
+
+/*LOGOTIPO*/
+#logo{
+    width: 40px; /*Largura de 40px*/
+    height: 40px; /*Altura de 40px*/
+}
+
+/*TITULOS E LOGOTIPO*/
+#main-titulo, #tituloTask, #logo{
+    margin-left: 24px; /*Margem a Esquerda de 24px*/
+}
+
+/*CONTADOR | CRONÔMETRO*/
+#hours, #minutes, #seconds, .sep{
+    font-size: 1.5rem; /*Tamanho da Fonte de 1.5 rem - Aprox: 24px*/
+}
+
+/*RODAPÉ*/
+footer{
+    position: absolute; /*Posição Absoluta ao Body*/
+    bottom: 0; /*Alinha no Canto Inferior*/
+    justify-content: center; /*Alinha o Eixo Principal ao Centro*/
+}
