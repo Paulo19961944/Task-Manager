@@ -19,7 +19,6 @@ body{
 h1, h2, h3{
     text-align: center; /*Alinha o Texto ao Centro*/
     font-size: 1.188rem; /*Tamanho da Fonte - 1.188rem | Aprox: 19px*/
-    font-weight: bold; /*Fonte em Negrito*/
 }
 
 /*PARÁGRAFOS E CONTEÚDO DO RODAPÉ*/
@@ -28,9 +27,10 @@ p, small{
 }
 
 /*TEXTO IMPORTANTE*/
-span{
+span, h1, h2, h3, header, footer, button{
     font-weight: bold; /*Fonte em Negrito*/
 }
+
 /*CABEÇALHO E RODAPÉ*/
 header, footer{
     width: 100%; /*Largura de 100%*/
@@ -38,7 +38,6 @@ header, footer{
     align-items: center; /*Alinha os Itens ao Centro*/
     height: 96px; /*Altura de 96px*/
     background-color: #0037eb; /*Cor de Fundo - Azul*/
-    font-weight: bold; /*Fonte em Negrito*/
     color: #fff; /*Cor da Fonte - Branca*/
 }
 
@@ -58,7 +57,6 @@ button{
     background-color: #0037eb; /*Cor de Fundo - Azul*/
     color: #fff; /*Cor da Fonte - Branco*/
     font-size: 0.75rem; /*Tamanho da Fonte de 0.75rem - Aprox: 12px*/
-    font-weight: bold;
 }
 
 /*CONTAINER PRINCIPAL*/
