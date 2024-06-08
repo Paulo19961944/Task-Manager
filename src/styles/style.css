@@ -17,7 +17,6 @@ body{
 
 /*TITULOS E SUBTITULOS*/
 h1, h2, h3{
-    text-align: center; /*Alinha o Texto ao Centro*/
     font-size: 1.188rem; /*Tamanho da Fonte - 1.188rem | Aprox: 19px*/
 }
 
