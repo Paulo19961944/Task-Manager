@@ -34,7 +34,8 @@ span, h1, h2, h3, header, footer, button{
 header, footer{
     width: 100%; /*Largura de 100%*/
     display: flex; /*Flexbox*/
-    align-items: center; /*Alinha os Itens ao Centro*/
+    align-items: center; /*Alinha o Eixo Perpendicular ao Centro*/
+    justify-content: center; /*Alinha o Eixo Principal ao Centro*/
     height: 96px; /*Altura de 96px*/
     background-color: #0037eb; /*Cor de Fundo - Azul*/
     color: #fff; /*Cor da Fonte - Branca*/
@@ -66,13 +67,13 @@ button{
 
 /*LOGOTIPO*/
 #logo{
-    width: 40px; /*Largura de 40px*/
-    height: 40px; /*Altura de 40px*/
+    width: 32px; /*Largura de 32px*/
+    height: 32px; /*Altura de 32px*/
 }
 
 /*TITULOS E LOGOTIPO*/
-.titulo, #logo{
-    margin-left: 24px; /*Margem a Esquerda de 24px*/
+.titulo{
+    margin-left: 16px; /*Margem a Esquerda de 24px*/
 }
 
 /*CONTADOR | CRONÔMETRO*/
@@ -94,5 +95,4 @@ button{
 footer{
     position: absolute; /*Posição Absoluta ao Body*/
     bottom: 0; /*Alinha no Canto Inferior*/
-    justify-content: center; /*Alinha o Eixo Principal ao Centro*/
 }
