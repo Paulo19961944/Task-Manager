@@ -36,10 +36,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
     encerrarBtn.addEventListener('click', () =>{
         clearInterval(interval)
+        encerrarBtn.innerText = 'Reiniciar'
         const result = document.getElementById('result')
         const resultHours = parseInt(hours.innerText)
         const resultMinutes = parseInt(minutes.innerText)
         const resultSeconds = parseInt(seconds.innerText)
+        const tarefaFinalizada = document.getElementById('currentTime')
+        tarefaFinalizada.innerText = 'Tarefa Finalizada'
         result.innerHTML = `<p id="result">Você demorou <span>${resultHours} Horas ${resultMinutes} Minutos e ${resultSeconds} Segundos</span> para completar a tarefa. Continue assim, pois com o tempo sua produtividade irá aumentar cada vez mais. Para voltar a tela principal, clique em Reiniciar.</p>`
     })
 })
