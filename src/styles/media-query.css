@@ -17,6 +17,13 @@
     .container{
         max-width: 537.6px; /*Largura Máxima de 537.6px*/
     }
+
+    /*BOTÕES*/
+    button:hover{
+        cursor: pointer; /*Adiciona Mãozinha do Cursor*/
+        transform: scale(1.03); /*Aumenta em 3%*/
+        transition: ease-in-out 0.5s; /*Transição Suave*/
+    }
 }
 
 /*BREAKPOINT DESKTOP*/
