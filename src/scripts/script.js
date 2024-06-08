@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', () => {
             result.innerHTML = `<p id="result">Você demorou <span>${resultHours} Horas ${resultMinutes} Minutos e ${resultSeconds} Segundos</span> para completar a tarefa. Continue assim, pois com o tempo sua produtividade irá aumentar cada vez mais. Para voltar a tela principal, clique em Reiniciar.</p>`; // Insere o HTML na Tela
             onFirstClick = false; // Define a Variável onFirstClick como Falsa
         } else {
-            window.location.href = 'index.html'; // Redireciona para a Página Principal
+            window.location.href = 'https://paulo19961944.github.io/Task-Manager/'; // Redireciona para a Página Principal
         }
     });
 });
