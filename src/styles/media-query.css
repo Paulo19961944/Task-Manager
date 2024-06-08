@@ -1,0 +1,149 @@
+/*BREAKPOINT TABLET*/
+@media (min-width: 576px){
+    /*TITULO*/
+    .titulo{
+        margin-left: 24px; /*Margem a Esquerda de 24px*/
+    }
+
+    /*CONTAINER PRINCIPAL*/
+    .container{
+        max-width: 489.6px; /*Largura Máxima de 489.6px*/
+    }
+}
+
+/*BREAKPOINT MODERN TABLET*/
+@media (min-width: 768px){
+    /*CONTAINER PRINCIPAL*/
+    .container{
+        max-width: 537.6px; /*Largura Máxima de 537.6px*/
+    }
+}
+
+/*BREAKPOINT DESKTOP*/
+@media (min-width: 1024px){
+    /*PARÁGRAFOS, BOTÕES E CONTEÚDO DO RODAPÉ*/
+    p, small, button{
+        font-size: 1.188rem; /*Tamanho da Fonte de 1.188rem - Aprox: 19px*/
+    }
+
+    /*BOTÕES*/
+    button{
+        width: 200px; /*Largura de 200px*/
+        height: 40px; /*Altura de 40px*/
+    }
+
+    /*TITULOS*/
+    h1, h2, h3{
+        font-size: 2rem; /*Tamanho da Fonte de 2rem - Aprox: 32px*/
+    }
+
+    /*CABEÇALHO E RODAPÉ*/
+    header, footer{
+        height: 200px; /*Altura de 200px*/
+    }
+
+    /*SEÇÃO DO CONTEÚDO PRINCIPAL*/
+    main section{
+        gap: 40px; /*Espaçamento de 40px*/
+    }
+
+    /*RODAPÉ*/
+    footer{
+        bottom: -288px; /*Ajusta a -288px da Tela Inferior*/
+    }
+
+    /*LOGOTIPO*/
+    #logo{
+        width: 48px; /*Largura de 48px*/
+        height: 48px; /*Altura de 48px*/
+    }
+
+    /*TITULO*/
+    .titulo{
+        margin-left: 80px; /*Margem a Esquerda de 80px*/
+    }
+
+    /*CONTAINER PRINCIPAL*/
+    .container{
+        margin-top: 144px; /*Margem Superior de 144px*/
+        max-width: 819.12px; /*Largura Máxima de 819.12px*/
+    }
+
+    /*CRONÔMETRO*/
+    #hours, #minutes, #seconds, .sep{
+        font-size: 3rem; /*Tamanho da Fonte de 3rem - Aprox: 48px*/
+    }
+
+    /*RODAPÉ DA PÁGINA TASK*/
+    .footer-task{
+        bottom: -384px; /*Ajusta a -384px do Canto Inferior da Tela*/    
+    }
+}
+
+/*BREAKPOINT FULL HD*/
+@media (min-width: 1920px){
+    /*CONTAINER PRINCIPAL*/
+    .container{
+        min-width: 1344px; /*Largura Mínima de 1344px*/
+    }
+
+    /*RESULTADO*/
+    #result{
+        margin-top: 96px; /*Margem no topo de 96px*/
+    }
+}
+
+/*TELAS 2.5K*/
+@media (min-width: 2560px){
+    /*RODAPÉ E CABEÇALHO*/
+    header, footer{
+        height: 320px; /*Altura de 320px*/
+    }
+
+    /*TITULOS*/
+    h1, h2, h3{
+        font-size: 3rem; /*Tamanho da Fonte de 3rem - Aprox: 48px*/
+    }
+
+    /*PARÁGRAFOS, BOTÕES E CONTEÚDO DO RODAPÉ*/
+    p, small, button{
+        font-size: 2rem; /*Tamanho da Fonte de 2rem - Aprox: 32px*/
+    }
+
+    /*BOTÕES*/
+    button{
+        width: 320px; /*Largura de 320px*/
+        height: 64px; /*Altura de 64px*/
+    }
+
+    /*SEÇÃO DO CONTEÚDO PRINCIPAL*/
+    main section{
+        gap: 64px; /*Espaçamento de 64px*/
+    }
+
+    /*LOGOTIPO*/
+    #logo{
+        width: 72px; /*Largura de 72px*/
+        height: 72px; /*Altura de 72px*/
+    }
+
+    /*CONTAINER PRINCIPAL*/
+    .container{
+        min-width: 1536px; /*Largura Mínima de 1536px*/
+    }
+
+    /*TITULO*/
+    .titulo{
+        margin-left: 120px; /*Margem de 120px a Esquerda*/
+    }
+
+    /*CRONÔMETRO*/
+    #hours, #minutes, #seconds, .sep{
+        font-size: 3.5rem; /*Tamanho da Fonte de 3.5rem - Aprox: 56px*/
+    }
+
+    /*RESULTADO*/
+    #result{
+        margin-top: 160px; /*Margem Superior de 160px*/
+    }
+}

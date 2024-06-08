@@ -11,7 +11,6 @@ body{
     flex-direction: column; /*Alinha em Colunas*/
     align-items: center; /*Alinha o Eixo Perpendicular ao Centro*/
     font-family: 'Blinker', sans-serif; /*Fonte Blinker - Google*/
-    width: 100vw; /*Largura ocupando toda a tela*/
     min-height: 100vh; /*Altura Mínima de 100% da Tela do Dispositivo*/
 }
 
@@ -21,7 +20,7 @@ h1, h2, h3{
 }
 
 /*PARÁGRAFOS E CONTEÚDO DO RODAPÉ*/
-p, small{
+p, small, button{
     font-size: 0.75rem; /*Tamanho da Fonte - 0.75rem | Aprox: 12px*/
 }
 
@@ -56,7 +55,6 @@ button{
     border: none; /*Tira a Borda*/
     background-color: #0037eb; /*Cor de Fundo - Azul*/
     color: #fff; /*Cor da Fonte - Branco*/
-    font-size: 0.75rem; /*Tamanho da Fonte de 0.75rem - Aprox: 12px*/
 }
 
 /*CONTAINER PRINCIPAL*/
@@ -95,4 +93,5 @@ button{
 footer{
     position: absolute; /*Posição Absoluta ao Body*/
     bottom: 0; /*Alinha no Canto Inferior*/
+    left: 0;
 }
